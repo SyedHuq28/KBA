@@ -171,7 +171,7 @@ def load_ablation(path: Path) -> Dict[str, Any]:
     return obj
 
 async def main_async(args):
-    api_key = "AIzaSyDvxE_8ncY3Awc-1lnFZA0jlOousTko4-g"
+    api_key = ""
     if not api_key:
         raise SystemExit("Set GEMINI_API_KEY in your environment first.")
 
