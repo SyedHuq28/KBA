@@ -68,7 +68,7 @@ TEMPLATES: Dict[str, Dict[str, Any]] = {
 
 # Frozen decoding — identical across ALL scripts
 DECODE_CFG = {
-    "max_new_tokens":     64,
+    "max_new_tokens":     512,
     "do_sample":          False,
     # Note: temperature/top_p are ignored when do_sample=False, but we keep them fixed.
     "temperature":        1.0,
